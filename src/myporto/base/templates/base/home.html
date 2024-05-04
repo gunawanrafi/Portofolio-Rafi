@@ -1,0 +1,137 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rafi Gunawan</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet"
+    type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card card.body" id="profile-wrapper">
+                <img id="profile-pic" src="{% static 'images/mirror.jpeg' %}" >
+                <hr>
+                <h4>I'm Rafi Gunawan</h4>
+                <p>Telecommunication Engineering at Telkom University</p>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <div class="card card-body">
+                <h4 class="section-title">About me?</h4>
+                <hr class="divider">
+                <p class="about-description">Hi there! My name is Muhammad Rafi Gunawan, a passionate student currently pursuing a degree in Telecommunication Engineering. I'm currently in my second semester, so I'm still early in my academic journey and have a lot to learn. Alongside my studies, I'm actively involved in the recruitment process at the Adaptive Network Laboratory, a prominent lab within the Telecommunication Engineering field. This opportunity allows me to delve deeper into the practical aspects of my field of study and gain valuable hands-on experience. I'm enthusiastic about expanding my knowledge and skills in Telecommunication Engineering, and I'm excited to see where this journey takes me.</p>
+        
+                <ul class="social-links">
+                    <li><img class="social" src="{% static 'images/Instagram.jpeg' %}"></li>
+                    <li><img class="social" src="{% static 'images/Linkedin.png' %}"></li>
+                    <li><img class="social" src="{% static 'images/Facebook.png' %}"></li>
+                </ul>
+            </div>
+        </div>
+        
+
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body">
+                <h5 class="section-title">My Experiences</h5>
+                <hr class="divider">
+                <div class="experience">
+                    <h6 class="experience-title">Netschool Participation</h6>
+                    <p class="experience-description">I participated in Netschool, a series within the Adaptive Network Laboratory recruitment program, held in the first semester.</p>
+                </div>
+                <div class="experience">
+                    <h6 class="experience-title">Net Development</h6>
+                    <p class="experience-description">In the second semester, I took part in Net Development, another series of the Adaptive Network Laboratory recruitment program.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="col-md-6">
+            <div class="card card-body">
+                <h5 class="section-title">My Activities</h5>
+                <hr class="divider">
+                <div class="activity">
+                    <h6 class="activity-title">Paper Review</h6>
+                    <p class="activity-description">I have reviewed papers related to NDN and SDN. Both are forms of technological development in the telecommunications sector.</p>
+                </div>
+                <div class="activity">
+                    <h6 class="activity-title">Focus on Learning</h6>
+                    <p class="activity-description">Apart from that, I remain focused on my lecture learning.</p>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body">
+                <h5 class="section-title">Various Skillsets</h5>
+                <hr class="divider">
+                <ul class="skillset-list">
+                    <li class="skillset-item">
+                        <span class="skillset-icon">⦿</span> 
+                        <span class="skillset-name">Linux Operating System</span>
+                    </li>
+                    <li class="skillset-item">
+                        <span class="skillset-icon">⦿</span> 
+                        <span class="skillset-name">Cisco Packet Tracer</span>
+                    </li>
+                    <li class="skillset-item">
+                        <span class="skillset-icon">⦿</span> 
+                        <span class="skillset-name">Python Language</span>
+                    </li>
+                    <li class="skillset-item">
+                        <span class="skillset-icon">⦿</span> 
+                        <span class="skillset-name">C language</span>
+                    </li>
+                    <li class="skillset-item">
+                        <span class="skillset-icon">⦿</span> 
+                        <span class="skillset-name">Problem Solving</span>
+                    </li>
+                    <li class="skillset-item">
+                        <span class="skillset-icon">⦿</span> 
+                        <span class="skillset-name">Self Management</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        <div class="col-md-6">
+            <div class="card card-body">
+                <h5 class="section-title">Education</h5>
+                <hr class="divider">
+                <div class="education-item">
+                    <h6 class="education-institution">SMAN 1 NGAWI</h6>
+                    <p class="education-details">2021-2023</p>
+                </div>
+                <div class="education-item">
+                    <h6 class="education-institution">Telkom University</h6>
+                    <p class="education-details">2023-Now</p>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

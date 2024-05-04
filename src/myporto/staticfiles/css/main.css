@@ -1,0 +1,173 @@
+
+body{
+    background-color: #F8F8F8!important;
+}
+
+#profile-wrapper{
+    text-align: center;
+}
+
+#profile-pic{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-links ul, li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border-top: 2px solid #333;
+    margin-bottom: 15px;
+}
+
+.skillset-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.skillset-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skillset-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.skillset-name {
+    font-size: 16px;
+    color: #333;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border-top: 2px solid #333;
+    margin-bottom: 15px;
+}
+
+.activity {
+    margin-bottom: 20px;
+}
+
+.activity-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.activity-description {
+    font-size: 16px;
+    color: #666;
+}
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border-top: 2px solid #333;
+    margin-bottom: 15px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border-top: 2px solid #333;
+    margin-bottom: 15px;
+}
+
+.about-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    /* Add any additional styles for social icons as needed */
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border-top: 2px solid #333;
+    margin-bottom: 15px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-institution {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.education-details {
+    font-size: 16px;
+    color: #666;
+}
+
